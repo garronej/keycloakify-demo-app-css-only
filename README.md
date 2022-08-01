@@ -1,0 +1,1 @@
+# keycloakify-demo-app-css-only
