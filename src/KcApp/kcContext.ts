@@ -3,7 +3,7 @@ import { getKcContext } from "keycloakify/lib/getKcContext";
 
 export const { kcContext } = getKcContext({
 	/* Uncomment to test th<e login page for development */
-	"mockPageId": "login.ftl",
+	//"mockPageId": "login.ftl",
 	"mockData": [
 		{
 			"pageId": "login.ftl",

@@ -12,6 +12,7 @@
         "build": "react-scripts build",
         "build-rewired": "react-app-rewired build",
         "start-rewired": "react-app-rewired start",
+        "keycloak": "yarn build && build-keycloak-theme",
         "download-builtin-keycloak-theme": "download-builtin-keycloak-theme 15.0.2"
     },
     "author": "u/garronej",
