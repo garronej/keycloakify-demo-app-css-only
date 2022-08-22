@@ -6,17 +6,11 @@ const App = lazy(() => import("./App/App"));
 const KcApp = lazy(() => import("./KcApp"));
 
 if (kcContext !== undefined) {
-	console.log(kcContext);
+    console.log(kcContext);
 }
 
 createRoot(document.getElementById("root")!).render(
-	<StrictMode>
-		<Suspense>
-			{
-				kcContext === undefined ?
-					<App /> :
-					<KcApp kcContext={kcContext} />
-			}
-		</Suspense>
-	</StrictMode>
+    <StrictMode>
+        <Suspense>{kcContext === undefined ? <App /> : <KcApp kcContext={kcContext} />}</Suspense>
+    </StrictMode>,
 );

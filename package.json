@@ -1,7 +1,7 @@
 {
     "name": "keycloakify-demo-app",
     "homepage": "https://demo-app.keycloakify.dev",
-    "version": "0.4.4",
+    "version": "1.0.0",
     "description": "A demo project for keycloakify",
     "repository": {
         "type": "git",
@@ -10,8 +10,6 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
-        "build-rewired": "react-app-rewired build",
-        "start-rewired": "react-app-rewired start",
         "keycloak": "yarn build && build-keycloak-theme",
         "download-builtin-keycloak-theme": "download-builtin-keycloak-theme 15.0.2"
     },
@@ -29,9 +27,7 @@
         "@types/react": "18.0.9",
         "@types/react-dom": "18.0.4",
         "react-scripts": "5.0.0",
-        "typescript": "^4.7.3",
-        "webpack-bundle-analyzer": "^4.5.0",
-        "react-app-rewired": "^2.2.1"
+        "typescript": "^4.7.3"
     },
     "eslintConfig": {
         "extends": [
